@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valinteca - Sign up</title>
+    <!-- Css Link  -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- font Awesome Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <section>
+        <div class="sign-screen">
+            
+                <img src="./images/necklace-2.png" alt="necklace" class="necklace-2">
+                <div class="sign-content">
+                    <h3>Create Account</h3>
+                <p>Go ahead and sign up, let everyone know how awesome you are!</p>
+                <form id="form" action="/">
+                    <div class="input-control">
+                        <i class="fa-regular fa-user"></i>
+                        <input type="text" placeholder="Username" id="userName" name="username">
+                        <div class="error"></div>
+                    </div>
+                    <div class="input-control">
+                        <i class="fa-regular fa-envelope"></i>
+                        <input type="text" placeholder="Email" id="email" name="email">
+                        <div class="error"></div>
+                    </div>
+                    <div class="input-control">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" placeholder="Password" id="password" name="password"> 
+                        <div class="error"></div>
+                    </div>
+                    <div class="input-control">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" placeholder="Confirm Password" id="confirmPassword" name="confirmPassword">
+                        <div class="error"></div>
+                    </div>
+                    <button type="submit">Create Account</button>
+                </form>
+                </div>
+        </div>
+    </section>
+    
+    <script src="./main.js"></script>
+</body>
+</html>
